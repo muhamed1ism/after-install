@@ -426,6 +426,26 @@ return {
   },
 }
 ```
+Python activate venv in current project dir in lazyvim
+```
+return {
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        pyright = {
+          settings = {
+            python = {
+              venvPath = ".",
+              pythonPath = "./.venv/bin/python",
+            },
+          },
+        },
+      },
+    },
+  },
+}
+````
 
 Old Which Key preset:
 
