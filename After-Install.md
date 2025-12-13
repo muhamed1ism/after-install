@@ -426,7 +426,9 @@ return {
   },
 }
 ```
+
 Python activate venv in current project dir in lazyvim
+~/.config/nvim/lua/plugins/python.lua
 ```
 return {
   {
