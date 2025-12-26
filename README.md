@@ -1,4 +1,4 @@
-# AFTER INSTALL
+# FEDORA 43 AFTER INSTALL
 ```
  sudo dnf makecache
 
